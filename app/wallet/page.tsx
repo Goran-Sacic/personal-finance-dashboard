@@ -6,9 +6,7 @@ import WalletTransactions from '@/components/core/wallet/WalletTransactions';
 import { Button } from '@/components/ui/button';
 import * as React from 'react';
 
-interface IAppProps {}
-
-const Wallet: React.FunctionComponent<IAppProps> = (props) => {
+const Wallet = () => {
 	return (
 		<div className='space-y-6'>
 			<div className='flex justify-between items-center'>

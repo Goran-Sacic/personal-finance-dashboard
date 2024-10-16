@@ -27,11 +27,7 @@ const monthlySpendingData = [
 	{ month: 'Jun', amount: 7000 },
 ];
 
-interface IWalletSpendingTrendsProps {}
-
-const WalletSpendingTrends: React.FunctionComponent<
-	IWalletSpendingTrendsProps
-> = (props) => {
+const WalletSpendingTrends = () => {
 	return (
 		<Card className='bg-purple-50'>
 			<CardHeader>

@@ -30,11 +30,7 @@ const spendingData = [
 	{ category: 'Savings', amount: 3000 },
 ];
 
-interface IWalletSpendingCategoriesProps {}
-
-const WalletSpendingCategories: React.FunctionComponent<
-	IWalletSpendingCategoriesProps
-> = (props) => {
+const WalletSpendingCategories = () => {
 	return (
 		<Card className='w-full max-w-3xl mx-auto bg-purple-50'>
 			<CardHeader>

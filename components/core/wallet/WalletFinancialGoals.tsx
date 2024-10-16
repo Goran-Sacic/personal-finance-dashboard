@@ -7,11 +7,7 @@ import {
 } from '@/components/ui/card';
 import * as React from 'react';
 
-interface IWalletFinancialGoalsProps {}
-
-const WalletFinancialGoals: React.FunctionComponent<
-	IWalletFinancialGoalsProps
-> = (props) => {
+const WalletFinancialGoals = () => {
 	return (
 		<Card className='bg-purple-50'>
 			<CardHeader>

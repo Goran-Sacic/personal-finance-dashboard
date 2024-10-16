@@ -2,11 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CreditCardIcon, DollarSign, MinusIcon, PlusIcon } from 'lucide-react';
 import * as React from 'react';
 
-interface IWalletOverviewCardsProps {}
-
-const WalletOverviewCards: React.FunctionComponent<
-	IWalletOverviewCardsProps
-> = (props) => {
+const WalletOverviewCards = () => {
 	return (
 		<div className='grid gap-6 md:grid-cols-2 lg:grid-cols-4'>
 			<Card className='bg-purple-100'>
