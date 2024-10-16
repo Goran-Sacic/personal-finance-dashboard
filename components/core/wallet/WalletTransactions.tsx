@@ -66,11 +66,7 @@ const categoryIcons = {
 	Income: DollarSign,
 };
 
-interface IWalletTransactionsProps {}
-
-const WalletTransactions: React.FunctionComponent<IWalletTransactionsProps> = (
-	props
-) => {
+const WalletTransactions = () => {
 	return (
 		<Card className='bg-purple-50'>
 			<CardHeader>

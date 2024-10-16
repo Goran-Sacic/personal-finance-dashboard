@@ -82,9 +82,7 @@ const assetAllocationData = [
 	},
 ];
 
-interface TreemapProps {}
-
-const TreeMap: React.FunctionComponent<TreemapProps> = (props) => {
+const TreeMap = () => {
 	return (
 		<Card className='bg-purple-50'>
 			<CardHeader>
@@ -115,9 +113,10 @@ const TreeMap: React.FunctionComponent<TreemapProps> = (props) => {
 const CustomTooltip = ({
 	active,
 	payload,
-	label,
-}: {
+}: /* label, */
+{
 	active: boolean;
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	payload: any[];
 	label: string;
 }) => {

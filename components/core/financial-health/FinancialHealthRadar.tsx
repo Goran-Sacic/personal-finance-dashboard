@@ -28,11 +28,7 @@ const financialHealthData = [
 	{ subject: 'Credit Score', A: 65, B: 85, fillMark: 150 },
 ];
 
-interface FinancialHealthRadarProps {}
-
-const FinancialHealthRadar: React.FunctionComponent<
-	FinancialHealthRadarProps
-> = (props) => {
+const FinancialHealthRadar = () => {
 	return (
 		<Card className='bg-purple-50'>
 			<CardHeader>

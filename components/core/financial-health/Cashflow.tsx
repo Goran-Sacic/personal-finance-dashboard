@@ -58,9 +58,7 @@ const cashFlowData = [
 	},
 ];
 
-interface ICashflowProps {}
-
-const Cashflow: React.FunctionComponent<ICashflowProps> = (props) => {
+const Cashflow = () => {
 	return (
 		<Card className='bg-purple-50'>
 			<CardHeader>
